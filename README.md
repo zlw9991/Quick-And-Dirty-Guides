@@ -5,7 +5,8 @@ A compilation of quick and dirty guides to doing IT-related things.
 
 ## Table of Contents  
 1. [Cloning windows 10 on GPT Disk to MBR Disk](#cloning-windows-10-on-gpt-disk-to-mbr-disk)
-2. [Increasing Windows Partitions Shrink Space](#increasing-windows-partitions-shrink-space)
+2. [Cloning windows 10 vmware VMDK vm to hyper-V](#win-10-vmware-vm-to-hyper-v)
+3. [Increasing Windows Partitions Shrink Space](#increasing-windows-partitions-shrink-space)
 
 
 <a name="headers"/>
@@ -44,6 +45,17 @@ Ensure you have two disks: one source disk with the windows 10 GPT partition, an
 12. At the blue menu, select 'troubleshoot'->'startup repair'.
 13. Wait for it to finish.
 14. Once rebooted, windows 10 on the destination MBR disk should be able to boot.
+
+
+## Win 10 VMware VM to Hyper-V:
+
+### Prerequisites:
+
+1. External Storage with sufficient size to store VM
+
+### Steps:
+
+1. Boot into your 
 
 ## Increasing Windows Partitions Shrink Space:
 
